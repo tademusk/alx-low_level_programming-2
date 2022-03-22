@@ -1,9 +1,9 @@
-#include "holberton.h"
-
 /**
- * reset_to_98 - check the code for Holberton School students.
- * @n : n is the pointer of n and return value 98
- * Return: Always 0.
+ * reset_to_98 - updates pointer's value to 98
+ *
+ * @n: integer pointer to update
+ *
+ * Return: always void
  */
 void reset_to_98(int *n)
 {

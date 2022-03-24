@@ -1,24 +1,20 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * _strcat - check the code for Holberton School students.
- * @dest: is a pointer type char
- * @src: is a pointer type char
- * Return: Always 0.
+ * *_strcat - concatenates @src to @dest
+ * @src: the source string to append to @dest
+ * @dest: the destiation string to be concatenated upon
+ * Return:pointer to the resulting string
  */
+
 char *_strcat(char *dest, char *src)
 {
-int i, j;
-for (i = 0; *dest != 0; i++)
-dest++;
+	int index = 0;
+	int dest_len = 0;
 
-for (j = 0; src[j] != 0; j++)
-{
-*dest = src[j];
-dest++;
-}
-*dest = '\0';
-dest -= (i + j);
-return (dest);
+	while (dest[index++])
+		dest_len++;
+	for (index = 0; src[index]; index++)
+		dest[dest_len++] = src[index];
+	return (dest);
 }

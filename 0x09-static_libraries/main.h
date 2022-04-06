@@ -1,4 +1,3 @@
-Tade Gates, [4/6/22 7:32 PM]
 #ifndef MAIN_HEADER
 #define MAIN_HEADER
 /* Define libraries */

@@ -1,11 +1,5 @@
-#ifndef MAIN_HEADER
-#define MAIN_HEADER
-/* Define libraries */
-#include <unistd.h>
-#include <ctype.h>
-#include <time.h>
-#include <stdlib.h>
-#include <stdio.h>
+#ifndef MAIN_H
+#define MAIN_H
 
 int _putchar(char c);
 int _islower(int c);
